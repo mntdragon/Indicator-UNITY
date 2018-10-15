@@ -1,4 +1,6 @@
-##MENU
+#Indicator
+
+## MENU
 1. A demo scene in ‘Indicator/_Scenes/_main’
 2. ‘Arrow Indicator’ and ‘Box Indicator’ Prefabs in ‘Indicator/Prefabs/’
 3. ‘PixelPlay.OffScreenIndicator.dll’ in ‘Indicator/Scripts/Core/’
@@ -7,13 +9,13 @@
 6. ‘WhiteArrow’ and ‘WhiteBox’ sprites in ‘Indicator/Sprites/’
 
 
-##Add new arrow+ box prefabs
+## Add new arrow+ box prefabs
 1. Arrow and Box Indicator->'Asset'
 2. Add a child to 'UI image' component, then adjust size
 3. Change the sprites in 'source image' for 'Image'script component
 4. New prefab need to attach 'Indicator.cs' from 'Scripts'
 
-##Setup Target
+## Setup Target
 1. Create a new tag named ‘Target’ in the ‘Tags and Layers’ inspector
 2. Open the scene in which you want to add the ‘Off screen target indicator’.
 3. Add a new Canvas to the ‘Hierarchy’ - ‘Render Mode’
