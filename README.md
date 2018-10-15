@@ -1,12 +1,12 @@
-#Indicator
+# Indicator 
 
 ## MENU
-1. A demo scene in ‘Indicator/_Scenes/_main’
-2. ‘Arrow Indicator’ and ‘Box Indicator’ Prefabs in ‘Indicator/Prefabs/’
-3. ‘PixelPlay.OffScreenIndicator.dll’ in ‘Indicator/Scripts/Core/’
-4. Off screen indicator scripts in ‘Indicator/Scripts/OffScreenIndicator/’
-5. A utility script, ‘ExtendedFlyCam.cs’ in ‘Indicator/Scripts/’
-6. ‘WhiteArrow’ and ‘WhiteBox’ sprites in ‘Indicator/Sprites/’
+1. A demo scene in ```‘Indicator/_Scenes/_main’ ```
+2. ```‘Arrow Indicator’``` and ```‘Box Indicator’``` Prefabs in ```‘Indicator/Prefabs/’```
+3. ```‘PixelPlay.OffScreenIndicator.dll’``` in ```‘Indicator/Scripts/Core/’```
+4. Off screen indicator scripts in ```‘Indicator/Scripts/OffScreenIndicator/’```
+5. A utility script, ```‘ExtendedFlyCam.cs’``` in ```‘Indicator/Scripts/’```
+6. ```‘WhiteArrow’``` and ‘WhiteBox’ sprites in ```‘Indicator/Sprites/’```
 
 
 ## Add new arrow+ box prefabs
