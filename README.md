@@ -1,30 +1,33 @@
 Indicator-UNITY
-*** MENU
-1. A demo scene in ¡®Indicator/_Scenes/_main¡¯
-2. ¡®Arrow Indicator¡¯ and ¡®Box Indicator¡¯ Prefabs in ¡®Indicator/Prefabs/¡¯
-3. ¡®PixelPlay.OffScreenIndicator.dll¡¯ in ¡®Indicator/Scripts/Core/¡¯
-4. Off screen indicator scripts in ¡®Indicator/Scripts/OffScreenIndicator/¡¯
-5. A utility script, ¡®ExtendedFlyCam.cs¡¯ in ¡®Indicator/Scripts/¡¯
-6. ¡®WhiteArrow¡¯ and ¡®WhiteBox¡¯ sprites in ¡®Indicator/Sprites/¡¯
 
-*** Add new arrow+ box prefabs
+***MENU
+1. A demo scene in Â¡Â®Indicator/_Scenes/_mainÂ¡Â¯
+2. Â¡Â®Arrow IndicatorÂ¡Â¯ and Â¡Â®Box IndicatorÂ¡Â¯ Prefabs in Â¡Â®Indicator/Prefabs/Â¡Â¯
+3. Â¡Â®PixelPlay.OffScreenIndicator.dllÂ¡Â¯ in Â¡Â®Indicator/Scripts/Core/Â¡Â¯
+4. Off screen indicator scripts in Â¡Â®Indicator/Scripts/OffScreenIndicator/Â¡Â¯
+5. A utility script, Â¡Â®ExtendedFlyCam.csÂ¡Â¯ in Â¡Â®Indicator/Scripts/Â¡Â¯
+6. Â¡Â®WhiteArrowÂ¡Â¯ and Â¡Â®WhiteBoxÂ¡Â¯ sprites in Â¡Â®Indicator/Sprites/Â¡Â¯
+
+
+***Add new arrow+ box prefabs
 1. Arrow and Box Indicator->'Asset'
 2. Add a child to 'UI image' component, then adjust size
 3. Change the sprites in 'source image' for 'Image'script component
 4. New prefab need to attach 'Indicator.cs' from 'Scripts'
 
-*** Setup Target
-1. Create a new tag named ¡®Target¡¯ in the ¡®Tags and Layers¡¯ inspector
-2. Open the scene in which you want to add the ¡®Off screen target indicator¡¯.
-3. Add a new Canvas to the ¡®Hierarchy¡¯ - ¡®Render Mode¡¯
+***Setup Target
+1. Create a new tag named Â¡Â®TargetÂ¡Â¯ in the Â¡Â®Tags and LayersÂ¡Â¯ inspector
+2. Open the scene in which you want to add the Â¡Â®Off screen target indicatorÂ¡Â¯.
+3. Add a new Canvas to the Â¡Â®HierarchyÂ¡Â¯ - Â¡Â®Render ModeÂ¡Â¯
 4. Right click on the above canvas and add a panel as a child to it. (You can rename the
-panel if you want to ¡®Off screen indicator panel¡¯).
+panel if you want to Â¡Â®Off screen indicator panelÂ¡Â¯).
 5. Set the alpha of the above panel to zero
-6. Add the ¡®OffScreenIndicator.cs¡¯ script to the above panel.
-7. In the same way add ¡®ArrowObjectPool.cs¡¯ and ¡®BoxObjectPool.cs¡¯ scripts to the panel.
-And assign the values of the ¡®Pooled Object¡¯ properties for both the scripts with the ¡®Arrow Indicator¡¯ and ¡®Box Indicator¡¯ prefabs respectively from the
-¡®Pixel Play/Prefabs/¡¯ folder
-8. Now ¡®Target.cs¡¯ script from the scripts folder to all the target game
+6. Add the Â¡Â®OffScreenIndicator.csÂ¡Â¯ script to the above panel.
+7. In the same way add Â¡Â®ArrowObjectPool.csÂ¡Â¯ and Â¡Â®BoxObjectPool.csÂ¡Â¯ scripts to the panel.
+And assign the values of the Â¡Â®Pooled ObjectÂ¡Â¯ properties for both the scripts with the Â¡Â®Arrow IndicatorÂ¡Â¯ and Â¡Â®Box IndicatorÂ¡Â¯ prefabs respectively from the
+Â¡Â®Pixel Play/Prefabs/Â¡Â¯ folder
+8. Now Â¡Â®Target.csÂ¡Â¯ script from the scripts folder to all the target game
 objects in the scene and adjust the various values of the script properties as you see fit.
-9. Testing: add the provided ¡®ExtendedFlyCam.cs¡¯ script to ¡®Main camera¡¯
-and hit ¡®Play¡¯.
+9. Testing: add the provided Â¡Â®ExtendedFlyCam.csÂ¡Â¯ script to Â¡Â®Main cameraÂ¡Â¯
+and hit Â¡Â®PlayÂ¡Â¯.
+
